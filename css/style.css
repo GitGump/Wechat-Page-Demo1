@@ -362,23 +362,23 @@ body {
     display: none;
 }
 #section1 {
-    background: url(../images/bg1.jpg);
+    background: url(../images/bg1.png);
     background-size: 100% 100%;
 }
 #section2 #slide1 {
-    background: url(../images/bg2.jpg);
+    background: url(../images/bg2.png);
     background-size: 100% 100%;
 }
 #section2 #slide2 {
-    background: url(../images/bg3.jpg);
+    background: url(../images/bg3.png);
     background-size: 100% 100%;
 }
 #section2 #slide3 {
-    background: url(../images/bg4.jpg);
+    background: url(../images/bg4.png);
     background-size: 100% 100%;
 }
 #section3 {
-    background: url(../images/bg5.jpg);
+    background: url(../images/bg5.png);
     background-size: 100% 100%;
 }
 .section, .slide {
