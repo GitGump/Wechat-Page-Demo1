@@ -386,7 +386,7 @@ body {
 }
 .section h1 {
     font-size: 30px;
-    color: #fff;
+    color: #dd4b39;
     position: absolute;
     left: 0;
     right: 0;
@@ -395,7 +395,7 @@ body {
     margin-top: -10px;
 }
 .section h1 a {
-    color: #fff;
+    color: #dd4b39;
 }
 .section.active > h1 {
     -webkit-animation: flipInY 1s 0.3s ease both;
