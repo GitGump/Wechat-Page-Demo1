@@ -11,27 +11,6 @@ window.onload = function() {
         //头部底部的滑动衔接
         continuousVertical: true,
         slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-        //开始播放音乐
-        afterRender: function() {
-            $('#bgm')[0].play();
-        },
+        slidesNavPosition: 'bottom'
     });
-
-
-    //音乐控制
-    $('.music-control').click(function() {
-        if ($(this).hasClass('close')) {
-            $('#bgm')[0].play();
-            $(this).addClass('play').removeClass('close');
-            $(this).find('p').text('music on').addClass('fadeIn');
-        } else if ($(this).hasClass('play')) {
-            $('#bgm')[0].pause();
-            $(this).removeClass('play').addClass('close');
-            $(this).find('p').text('music off').addClass('fadeIn');
-        }
-        setTimeout(function() {
-            $('.music-control').find('p').removeClass('fadeIn');
-        }, 1000)
-    })
 }
