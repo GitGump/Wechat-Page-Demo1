@@ -10,6 +10,6 @@ window.onload = function() {
         //头部底部的滑动衔接
         continuousVertical: true,
         slidesNavigation: true,
-        slidesNavPosition: 'bottom'
+        slidesNavPosition: 'bottom',
     });
 }
