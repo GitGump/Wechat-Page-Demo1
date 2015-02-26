@@ -1,6 +1,5 @@
 window.onload = function() {
     $('.loading').remove();
-    $('.swipe-tip,.music-control').show();
     $('#fullpage').show().fullpage({
         verticalCentered: false,
 
